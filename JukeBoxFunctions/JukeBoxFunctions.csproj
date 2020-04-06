@@ -5,10 +5,13 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Kentico.Kontent.Delivery" Version="12.3.0" />
+    <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.DurableTask" Version="2.1.1" />
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="3.0.3" />
+    <PackageReference Include="Nexmo.Csharp.Client" Version="4.3.1" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\JukeBox.Core\JukeBox.Core.csproj" />
+    <ProjectReference Include="..\Jukebox.Domain\Jukebox.Domain.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">

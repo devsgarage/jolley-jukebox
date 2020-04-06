@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Kentico.Kontent.Delivery" Version="12.3.0" />
+    <ProjectReference Include="..\JukeBox.Core\JukeBox.Core.csproj" />
   </ItemGroup>
 
 </Project>
